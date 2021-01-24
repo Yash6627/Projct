@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 275px;
+    
+}
+header
+{
+    background-image:url(../Images/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+}
+.button
+{
+    margin-top: 490px;
+    margin-left: 180px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 20px 50px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+	text-align:center;
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.btn-two:hover
+{
+    background-color:green;
+    transition: all 0.5s ease-in;
+    
+        
+}
